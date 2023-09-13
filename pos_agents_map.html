@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1d41cf3eb1920ddc0d5c01902c3eefcf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1d41cf3eb1920ddc0d5c01902c3eefcf" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1d41cf3eb1920ddc0d5c01902c3eefcf = L.map(
+                "map_1d41cf3eb1920ddc0d5c01902c3eefcf",
+                {
+                    center: [34.55026891317741, 73.34515830021151],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_55fc3ba42e03fa6452275a0b324fd3ce = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1d41cf3eb1920ddc0d5c01902c3eefcf);
+        
+    
+            var marker_0e31119fad6e7e9e0b6f388cc9ce2154 = L.marker(
+                [34.40009, 73.37831],
+                {}
+            ).addTo(map_1d41cf3eb1920ddc0d5c01902c3eefcf);
+        
+    
+            var icon_237ab0b060cca9cfe5f5ee99d2badc25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0e31119fad6e7e9e0b6f388cc9ce2154.setIcon(icon_237ab0b060cca9cfe5f5ee99d2badc25);
+        
+    
+        var popup_49390f574d00cc1268111019aaa8dc11 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_cb33970bdd011435fa5446c03ca6cf81 = $(`<div id="html_cb33970bdd011435fa5446c03ca6cf81" style="width: 100.0%; height: 100.0%;"><b>Name:</b> humera arshad<br><b>Mobile:</b> (0311)-971-1789<br><b>Address:</b> GARHI HABIBULLAH</div>`)[0];
+                popup_49390f574d00cc1268111019aaa8dc11.setContent(html_cb33970bdd011435fa5446c03ca6cf81);
+            
+        
+
+        marker_0e31119fad6e7e9e0b6f388cc9ce2154.bindPopup(popup_49390f574d00cc1268111019aaa8dc11)
+        ;
+
+        
+    
+    
+            var marker_0e86c617a494dc7dfdc91d95ce454c5d = L.marker(
+                [34.39982, 73.37843],
+                {}
+            ).addTo(map_1d41cf3eb1920ddc0d5c01902c3eefcf);
+        
+    
+            var icon_2ea1da728c40847047f077e333e605f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0e86c617a494dc7dfdc91d95ce454c5d.setIcon(icon_2ea1da728c40847047f077e333e605f9);
+        
+    
+        var popup_615ac2c362d4103a779ed206607ccc53 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a44e4cd72a32ac9142513508b58f757e = $(`<div id="html_a44e4cd72a32ac9142513508b58f757e" style="width: 100.0%; height: 100.0%;"><b>Name:</b> jawad azhar<br><b>Mobile:</b> (0316)-924-3743<br><b>Address:</b> GARHI HABIBULLAH</div>`)[0];
+                popup_615ac2c362d4103a779ed206607ccc53.setContent(html_a44e4cd72a32ac9142513508b58f757e);
+            
+        
+
+        marker_0e86c617a494dc7dfdc91d95ce454c5d.bindPopup(popup_615ac2c362d4103a779ed206607ccc53)
+        ;
+
+        
+    
+    
+            var marker_35975a65c9b69a09b145a8202ba2a5de = L.marker(
+                [34.40009, 73.37831],
+                {}
+            ).addTo(map_1d41cf3eb1920ddc0d5c01902c3eefcf);
+        
+    
+            var icon_3bec748e0effd9f6d46901d9f2c39ee7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_35975a65c9b69a09b145a8202ba2a5de.setIcon(icon_3bec748e0effd9f6d46901d9f2c39ee7);
+        
+    
+        var popup_2d8626f38935167e58dcf644da80babe = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_228fc1c3e21ce7653325d8a2efa5cbf0 = $(`<div id="html_228fc1c3e21ce7653325d8a2efa5cbf0" style="width: 100.0%; height: 100.0%;"><b>Name:</b> AMIR RAZA SHAH<br><b>Mobile:</b> (0332)-334-1393<br><b>Address:</b> bus standGARHI HABIBULLh</div>`)[0];
+                popup_2d8626f38935167e58dcf644da80babe.setContent(html_228fc1c3e21ce7653325d8a2efa5cbf0);
+            
+        
+
+        marker_35975a65c9b69a09b145a8202ba2a5de.bindPopup(popup_2d8626f38935167e58dcf644da80babe)
+        ;
+
+        
+    
+    
+            var marker_87f4e54e1eb96e7e0729cd1cefe7961d = L.marker(
+                [34.27452, 73.20325],
+                {}
+            ).addTo(map_1d41cf3eb1920ddc0d5c01902c3eefcf);
+        
+    
+            var icon_1577b1ee7eb17b7212973ccc23df3139 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_87f4e54e1eb96e7e0729cd1cefe7961d.setIcon(icon_1577b1ee7eb17b7212973ccc23df3139);
+        
+    
+        var popup_c7b4df74b354883a816f2a506676e733 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c4283c6d3e980acbdced86eb04161f91 = $(`<div id="html_c4283c6d3e980acbdced86eb04161f91" style="width: 100.0%; height: 100.0%;"><b>Name:</b> ISRAR AHMED<br><b>Mobile:</b> (0311)-550-5531<br><b>Address:</b> BALAKOT ROAD BISSIAN CHOWK </div>`)[0];
+                popup_c7b4df74b354883a816f2a506676e733.setContent(html_c4283c6d3e980acbdced86eb04161f91);
+            
+        
+
+        marker_87f4e54e1eb96e7e0729cd1cefe7961d.bindPopup(popup_c7b4df74b354883a816f2a506676e733)
+        ;
+
+        
+    
+    
+            var marker_912adfb0b4637b50cf08da34abfb3d3e = L.marker(
+                [34.55041, 73.35219],
+                {}
+            ).addTo(map_1d41cf3eb1920ddc0d5c01902c3eefcf);
+        
+    
+            var icon_8d3fab9ce2c282f9ac6b083799476c11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_912adfb0b4637b50cf08da34abfb3d3e.setIcon(icon_8d3fab9ce2c282f9ac6b083799476c11);
+        
+    
+        var popup_567a3af6b8a5b748078c684757a63310 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6c23a0bfe77ba5776a47e4d072395b15 = $(`<div id="html_6c23a0bfe77ba5776a47e4d072395b15" style="width: 100.0%; height: 100.0%;"><b>Name:</b> NABEEL AHMED<br><b>Mobile:</b> (0341)-421-0080<br><b>Address:</b> kacheri road balakot</div>`)[0];
+                popup_567a3af6b8a5b748078c684757a63310.setContent(html_6c23a0bfe77ba5776a47e4d072395b15);
+            
+        
+
+        marker_912adfb0b4637b50cf08da34abfb3d3e.bindPopup(popup_567a3af6b8a5b748078c684757a63310)
+        ;
+
+        
+    
+    
+            var marker_882492ade75cb98bbeeb0e659bc1e554 = L.marker(
+                [34.54894, 73.35284],
+                {}
+            ).addTo(map_1d41cf3eb1920ddc0d5c01902c3eefcf);
+        
+    
+            var icon_87359227c34ec9ad2b67671876865592 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_882492ade75cb98bbeeb0e659bc1e554.setIcon(icon_87359227c34ec9ad2b67671876865592);
+        
+    
+        var popup_c680d62383c9c8e2e94f762ad04a5072 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_cd9e860cc05a535ca0f3fc22e04a156d = $(`<div id="html_cd9e860cc05a535ca0f3fc22e04a156d" style="width: 100.0%; height: 100.0%;"><b>Name:</b> muhammad naseem<br><b>Mobile:</b> (0345)-444-3807<br><b>Address:</b> KAGHAN ROAD BALAKOT</div>`)[0];
+                popup_c680d62383c9c8e2e94f762ad04a5072.setContent(html_cd9e860cc05a535ca0f3fc22e04a156d);
+            
+        
+
+        marker_882492ade75cb98bbeeb0e659bc1e554.bindPopup(popup_c680d62383c9c8e2e94f762ad04a5072)
+        ;
+
+        
+    
+    
+            var marker_81ea5f128ee1ef661f1f20f6de6c87d3 = L.marker(
+                [34.5508, 73.35167],
+                {}
+            ).addTo(map_1d41cf3eb1920ddc0d5c01902c3eefcf);
+        
+    
+            var icon_16da02fcd1da03d038b7c288ca8214c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_81ea5f128ee1ef661f1f20f6de6c87d3.setIcon(icon_16da02fcd1da03d038b7c288ca8214c1);
+        
+    
+        var popup_1916aadd7ac9cd02ad4622c071b49c87 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4d85bb3450632ebda087e905455a0c0f = $(`<div id="html_4d85bb3450632ebda087e905455a0c0f" style="width: 100.0%; height: 100.0%;"><b>Name:</b> AWAIS BASHIR<br><b>Mobile:</b> (0326)-522-4190<br><b>Address:</b> garlat balakot</div>`)[0];
+                popup_1916aadd7ac9cd02ad4622c071b49c87.setContent(html_4d85bb3450632ebda087e905455a0c0f);
+            
+        
+
+        marker_81ea5f128ee1ef661f1f20f6de6c87d3.bindPopup(popup_1916aadd7ac9cd02ad4622c071b49c87)
+        ;
+
+        
+    
+    
+            var marker_349771946203fa53c7b1f174e86abd3f = L.marker(
+                [34.55958, 73.33717],
+                {}
+            ).addTo(map_1d41cf3eb1920ddc0d5c01902c3eefcf);
+        
+    
+            var icon_fb988ae8746d31b3f6244b931bd5bc70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_349771946203fa53c7b1f174e86abd3f.setIcon(icon_fb988ae8746d31b3f6244b931bd5bc70);
+        
+    
+        var popup_c8e3aa46a1bbc3d02f37a16c0e12054c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2b50a1ce65273e68c988489d2d49eb39 = $(`<div id="html_2b50a1ce65273e68c988489d2d49eb39" style="width: 100.0%; height: 100.0%;"><b>Name:</b> HAMEED ALRABANI<br><b>Mobile:</b> (0341)-055-5318<br><b>Address:</b> satbani balakot</div>`)[0];
+                popup_c8e3aa46a1bbc3d02f37a16c0e12054c.setContent(html_2b50a1ce65273e68c988489d2d49eb39);
+            
+        
+
+        marker_349771946203fa53c7b1f174e86abd3f.bindPopup(popup_c8e3aa46a1bbc3d02f37a16c0e12054c)
+        ;
+
+        
+    
+    
+            var marker_4106d6a00cff4f978602c032b2d5964b = L.marker(
+                [34.6594, 73.45528],
+                {}
+            ).addTo(map_1d41cf3eb1920ddc0d5c01902c3eefcf);
+        
+    
+            var icon_01af06d64ee6ff852e15cdb3aabd25e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4106d6a00cff4f978602c032b2d5964b.setIcon(icon_01af06d64ee6ff852e15cdb3aabd25e4);
+        
+    
+        var popup_d9cff198d7ee47574c84cce81d0ca61e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7fec6288b9b96f62f3ba19dfdfa94cb4 = $(`<div id="html_7fec6288b9b96f62f3ba19dfdfa94cb4" style="width: 100.0%; height: 100.0%;"><b>Name:</b> GHULAM DEEN<br><b>Mobile:</b> (0346)-709-0992<br><b>Address:</b> main bazar Paris </div>`)[0];
+                popup_d9cff198d7ee47574c84cce81d0ca61e.setContent(html_7fec6288b9b96f62f3ba19dfdfa94cb4);
+            
+        
+
+        marker_4106d6a00cff4f978602c032b2d5964b.bindPopup(popup_d9cff198d7ee47574c84cce81d0ca61e)
+        ;
+
+        
+    
+    
+            var marker_1b332271c5e5490854737fb2479faa97 = L.marker(
+                [34.62736, 73.44657],
+                {}
+            ).addTo(map_1d41cf3eb1920ddc0d5c01902c3eefcf);
+        
+    
+            var icon_2f7c70bed122ec694a06d867fdde3eba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1b332271c5e5490854737fb2479faa97.setIcon(icon_2f7c70bed122ec694a06d867fdde3eba);
+        
+    
+        var popup_ee621e35b493f0d435106bfa9f701a0e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fcc71c565b99020055bf6213ce7f3d60 = $(`<div id="html_fcc71c565b99020055bf6213ce7f3d60" style="width: 100.0%; height: 100.0%;"><b>Name:</b> ROBINA BIBI<br><b>Mobile:</b> (0347)-350-5421<br><b>Address:</b> SHOGRAN ROAD KEWAI</div>`)[0];
+                popup_ee621e35b493f0d435106bfa9f701a0e.setContent(html_fcc71c565b99020055bf6213ce7f3d60);
+            
+        
+
+        marker_1b332271c5e5490854737fb2479faa97.bindPopup(popup_ee621e35b493f0d435106bfa9f701a0e)
+        ;
+
+        
+    
+    
+            var marker_b1b0cea161f2bcef2af0000426bf8fee = L.marker(
+                [34.90527, 73.64909],
+                {}
+            ).addTo(map_1d41cf3eb1920ddc0d5c01902c3eefcf);
+        
+    
+            var icon_65a99dd05e7cb8fdb181631580df175a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b1b0cea161f2bcef2af0000426bf8fee.setIcon(icon_65a99dd05e7cb8fdb181631580df175a);
+        
+    
+        var popup_d53408696705eff409f577c190c55187 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b75c11cdd051a0f055d1adad841a1f3e = $(`<div id="html_b75c11cdd051a0f055d1adad841a1f3e" style="width: 100.0%; height: 100.0%;"><b>Name:</b> MUHAMMAD IMRAN<br><b>Mobile:</b> (0346)-961-8878<br><b>Address:</b> main bazar naran </div>`)[0];
+                popup_d53408696705eff409f577c190c55187.setContent(html_b75c11cdd051a0f055d1adad841a1f3e);
+            
+        
+
+        marker_b1b0cea161f2bcef2af0000426bf8fee.bindPopup(popup_d53408696705eff409f577c190c55187)
+        ;
+
+        
+    
+    
+            var marker_1fb6c822737913f86231b7d3716af46d = L.marker(
+                [34.907832, 73.651627],
+                {}
+            ).addTo(map_1d41cf3eb1920ddc0d5c01902c3eefcf);
+        
+    
+            var icon_ad051df7f96c9a87382ec67b2045a775 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1fb6c822737913f86231b7d3716af46d.setIcon(icon_ad051df7f96c9a87382ec67b2045a775);
+        
+    
+        var popup_146486f3109b082e70096907e1ffe835 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e9234e4ab2e05151485e377a877793f1 = $(`<div id="html_e9234e4ab2e05151485e377a877793f1" style="width: 100.0%; height: 100.0%;"><b>Name:</b> MUHAMMAD RASHID<br><b>Mobile:</b> (0310)-189-6182<br><b>Address:</b> main bazar naran </div>`)[0];
+                popup_146486f3109b082e70096907e1ffe835.setContent(html_e9234e4ab2e05151485e377a877793f1);
+            
+        
+
+        marker_1fb6c822737913f86231b7d3716af46d.bindPopup(popup_146486f3109b082e70096907e1ffe835)
+        ;
+
+        
+    
+    
+            var marker_2cdc0cdcb5858a1e8f539bcd8eacced8 = L.marker(
+                [34.778065, 73.524425],
+                {}
+            ).addTo(map_1d41cf3eb1920ddc0d5c01902c3eefcf);
+        
+    
+            var icon_c6131a44da41185279f9c691134f62db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2cdc0cdcb5858a1e8f539bcd8eacced8.setIcon(icon_c6131a44da41185279f9c691134f62db);
+        
+    
+        var popup_8df1f450fdb48d4a34b3c926d9936146 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_73b015ff1b419a0303b3ac29cb95bb4f = $(`<div id="html_73b015ff1b419a0303b3ac29cb95bb4f" style="width: 100.0%; height: 100.0%;"><b>Name:</b> sadam shah<br><b>Mobile:</b> (0344)-581-7017<br><b>Address:</b> link road kaghan </div>`)[0];
+                popup_8df1f450fdb48d4a34b3c926d9936146.setContent(html_73b015ff1b419a0303b3ac29cb95bb4f);
+            
+        
+
+        marker_2cdc0cdcb5858a1e8f539bcd8eacced8.bindPopup(popup_8df1f450fdb48d4a34b3c926d9936146)
+        ;
+
+        
+    
+    
+            var marker_4e46bcf96bfc37ea275138c632e7f8bb = L.marker(
+                [34.65481, 73.51685],
+                {}
+            ).addTo(map_1d41cf3eb1920ddc0d5c01902c3eefcf);
+        
+    
+            var icon_c459487c15eac898dce01cb4c2f9cb60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4e46bcf96bfc37ea275138c632e7f8bb.setIcon(icon_c459487c15eac898dce01cb4c2f9cb60);
+        
+    
+        var popup_4e726be7f38c32b352713a055c37fffc = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_084a94e0a3b7a564d23ea78862b11cd6 = $(`<div id="html_084a94e0a3b7a564d23ea78862b11cd6" style="width: 100.0%; height: 100.0%;"><b>Name:</b> saqib hussain <br><b>Mobile:</b> (0345)-301-6078<br><b>Address:</b> fareed abad</div>`)[0];
+                popup_4e726be7f38c32b352713a055c37fffc.setContent(html_084a94e0a3b7a564d23ea78862b11cd6);
+            
+        
+
+        marker_4e46bcf96bfc37ea275138c632e7f8bb.bindPopup(popup_4e726be7f38c32b352713a055c37fffc)
+        ;
+
+        
+    
+    
+            var marker_6fa1a71a0d64dae7f1a5f4ae8083b3fa = L.marker(
+                [34.5508, 73.35167],
+                {}
+            ).addTo(map_1d41cf3eb1920ddc0d5c01902c3eefcf);
+        
+    
+            var icon_a56ffacc4891a627d87361acce445e3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6fa1a71a0d64dae7f1a5f4ae8083b3fa.setIcon(icon_a56ffacc4891a627d87361acce445e3f);
+        
+    
+        var popup_777c7cd1a08b3cca46d6319c20045d89 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_75f06ea7165c92e5d7046cf8c93fe9bb = $(`<div id="html_75f06ea7165c92e5d7046cf8c93fe9bb" style="width: 100.0%; height: 100.0%;"><b>Name:</b> nawazish ali<br><b>Mobile:</b> (0311)-979-4855<br><b>Address:</b> kacheri road balakot</div>`)[0];
+                popup_777c7cd1a08b3cca46d6319c20045d89.setContent(html_75f06ea7165c92e5d7046cf8c93fe9bb);
+            
+        
+
+        marker_6fa1a71a0d64dae7f1a5f4ae8083b3fa.bindPopup(popup_777c7cd1a08b3cca46d6319c20045d89)
+        ;
+
+        
+    
+</script>
+</html>
